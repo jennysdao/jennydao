@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Inter light';
+    font-style: normal;
+    src: url("Inter-Light-BETA.ttf");
+}
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ... (your existing styles) ... */
+
+body {
+    background-color: #595151;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.container {
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 500px;
+    transform: translate(10%, 40%);
+
+}
+
+
+nav ul li {
+    transform: translate(-40%, 800%);
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+
+
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+
+
+}
+
+/*---------ABOUT----------*/
+
+
+#about {
+    font-family: 'Inter';
+    font-size: 15px;
+    padding: 80px 0;
+    color: #fff;
+    opacity: 0; /* Start with zero opacity */
+    transition: opacity 1s ease;
+}
+
+
+
+.about-col-1 img{
+    width: 350px;
+    transform: translate(45%, -10%);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 35%;
+}
+
+.sub-title {
+    transform: translate(-20%, 0%);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.description{
+    box-sizing: border-box;
+    }
+.description{
+    transform: translate(-20%, 0%);
+   color: #ffffff;
+    font-family: 'Inter light';
+    font-size:15px;
+    position: relative;
+    width: 500px;
+    height: 346px;
+   }
+
+
+/* -------------PROJECTS--------------*/
+
+.mysmply, .mysmply * {
+    box-sizing: border-box;
+    }
+.mysmply {
+    width: 600px;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transform: translate(70%, 0%);
+   }
+
+.my-work, .my-work * {
+    box-sizing: border-box;
+    }
+
+.my-work {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Inter Light';
+    font-size: 50px;
+    position: relative;
+    transform: translate(5%, 400%);
+   }
+
+
+/* ... (your existing styles) ... */
+
+.mysmply-header {
+    transform: translate(63%, 0%);
+    color: #ffffff;
+    text-align: left;
+    position: relative;
+    width: 662px;
+    height: 46px;
+    opacity: 1;
+    transition: opacity 0.4s; /* Add transition for color change */
+}
+
+.mysmply-header:hover {
+    opacity: 0.3;
+}
+
+.mysmply-link {
+    transform: translate(60%, 0%);
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    transition: opacity 0.4s; /* Add transition for color change */
+}
+
+.mysmply-link:hover {
+    opacity: 0.3; /* Change the text color to grey on hover */
+}
+
+.mysmply-span {
+    color: #ffffff;
+    font: 700 30px 'Inter', sans-serif;
+}
+
+.mysmply-span2 {
+    color: #ffffff;
+    font: 700 15px 'Inter', sans-serif;
+}
+
+/* ... (rest of your styles) ... */
+
+
+.your-serene-study {
+        box-sizing: border-box;
+        }
+
+.your-serene-study {
+       color: #ffffff;
+       font-family: 'Inter light';
+       font-size:15px;
+       position: relative;
+       width: 500px;
+       height: 346px;
+        position: relative;
+        width: 885px;
+        height: 94px;
+        transform: translate(48%, 10%);
+       }
+
+
+
+
+
+    
+/*-------------SOCIALS----------------*/
+   
+
+.footer-links {
+    transform: translate(0%, 200%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+    font-size: 36px; /* Adjust the font size to make the icons bigger */
+    margin: 0 20px; /* Adjust the margin for spacing */
+    text-decoration: none;
+    transform: translate(0%, 120%);
+}
+
+   
+
+
+
+
+
+
+
